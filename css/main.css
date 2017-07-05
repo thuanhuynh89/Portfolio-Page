@@ -30,6 +30,7 @@ h3 {
     margin: 0 0 1em 0;
 }
 
+
 /*************************************************
 HEADING
 **************************************************/
@@ -60,9 +61,11 @@ h2{
     font-weight: normal;
 }
 
+
 /*************************************************
 NAVIGATION
 **************************************************/
+
 nav {
     text-align: center;
     padding: 10px 0;
@@ -78,6 +81,7 @@ nav ul {
 nav li {
     display: inline-block;
 }
+
 
 /*************************************************
 FOOTER
@@ -96,6 +100,7 @@ footer {
     height: 20px;
     margin: 0 5px;
 }
+
 
 /*************************************************
 PAGE: PORTFOLIO
@@ -122,9 +127,11 @@ PAGE: PORTFOLIO
     color: #bdc3c7;
 }
 
+
 /*************************************************
 PAGE: ABOUT
 **************************************************/
+
 .profile-photo {
     display: block;
     max-width: 150px;
@@ -132,6 +139,31 @@ PAGE: ABOUT
     border-radius: 20px;
 }
 
+
+/*************************************************
+PAGE: CONTACT
+**************************************************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding: 0 0 0 25px;
+    margin: 0 0 10px;
+
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png');
+}
 
 /*************************************************
 COLORS
